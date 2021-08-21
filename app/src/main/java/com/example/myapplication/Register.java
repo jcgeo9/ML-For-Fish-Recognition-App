@@ -143,6 +143,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
                                     @Override
                                     public void onSuccess(Void aVoid) {
                                         Toast.makeText(Register.this,"Successful Registration!",Toast.LENGTH_LONG).show();
+                                        FirebaseAuth.getInstance().signOut();
                                         startActivity(new Intent(Register.this, MainActivity.class));
                                     }
                                 }).addOnFailureListener(new OnFailureListener() {

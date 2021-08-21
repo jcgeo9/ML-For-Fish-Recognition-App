@@ -83,7 +83,11 @@ public class AboutFragment extends Fragment implements View.OnClickListener{
             @Override
             public void onComplete(@NonNull @NotNull Task<DocumentSnapshot> task) {
                 if (task.isSuccessful()) {
-                    fishRecognizedDisplay.setText(task.getResult().get("fish_rec").toString());
+                    if(task.getResult().get("fish_rec")!=null) {
+                        fishRecognizedDisplay.setText(task.getResult().get("fish_rec").toString());
+                    }else
+                        fishRecognizedDisplay.setText("No uploads yet");
+
                 }
             }
         });
