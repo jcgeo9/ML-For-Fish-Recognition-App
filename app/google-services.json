@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "674772883478",
+    "firebase_url": "https://dissertation-44262-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dissertation-44262",
+    "storage_bucket": "dissertation-44262.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674772883478:android:bd4f6385a193a448e73d37",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674772883478-vlii6vfdaq5r08mbd40e5jg6iitvps8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpRBfFqW7P5agpsQ6AyV6XvVG-R_S1AWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674772883478-vlii6vfdaq5r08mbd40e5jg6iitvps8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

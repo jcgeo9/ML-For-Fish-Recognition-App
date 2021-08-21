@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <EditText
+      android:layout_marginStart="50dp"
+      android:layout_marginEnd="50dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      android:textColorHint="#999999"
+      android:background="@drawable/rounded_menu"
+      android:backgroundTint="@color/white"
+      android:textColor="@color/black"
+      android:id="@+id/searchEditText"
+      android:paddingStart="20dp"
+      android:paddingEnd="20dp"
+      android:padding="10dp"
+      android:drawableEnd="@drawable/ic_black_search_24"
+      android:drawableTint="@color/black"
+      android:hint="Type here to search ..."
+      android:clipToPadding="false"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_gravity="center"
+      android:textSize="20sp"
+
+      />
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:background="@drawable/rounded_menu_no_color"
+     android:id="@+id/info_recycler_view"
+     android:padding="10dp"
+     android:clipToPadding="false"
+     android:layout_below="@+id/searchEditText"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:listitem="@layout/info_item"
+     android:layout_marginStart="5dp"
+     android:layout_marginEnd="5dp"
+     android:layout_marginBottom="10dp"
+     />
+
+</RelativeLayout>

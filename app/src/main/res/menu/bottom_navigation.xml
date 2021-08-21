@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_round_photo_camera_24"
+        android:title="Find" />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_round_history_24"
+        android:title="History" />
+
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_round_search_24"
+        android:title="Info" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_round_push_pin_24"
+        android:title="More" />
+
+</menu>
