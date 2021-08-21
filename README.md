@@ -7,15 +7,17 @@ Student ID: 20090232
 
 Supervisor: Dr Peter McBurney
 
-The Android App files and info are located at:
+The Python Code and Model files and info are located at:
 * https://github.com/jcgeo9/ML-For-Fish-Recognition
-
-Demonstration Video can be found at:
-* https://youtu.be/XYQtQsA4V-U
 
 ## Repository Contents
 
 This repository contains the Android Studio code for implementing the App
+
+## Demonstration Video
+
+Demonstration Video can be found at:
+* https://youtu.be/XYQtQsA4V-U
 
 ## Instructions on Android App Files
 
