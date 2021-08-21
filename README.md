@@ -5,7 +5,13 @@ Name: Giannis Kostas Georgiou
 
 Student ID: 20090232
 
-Supervisor: Peter McBurney
+Supervisor: Dr Peter McBurney
+
+The Android App files and info are located at:
+* https://github.com/jcgeo9/ML-For-Fish-Recognition
+
+Demonstration Video can be found at:
+* https://youtu.be/XYQtQsA4V-U
 
 ## Repository Contents
 
@@ -15,7 +21,7 @@ This repository contains the Android Studio code for implementing the App
 
 If one wishes to download and use the app:
 1. Download the .apk file from:
-   https://drive.google.com/file/d/1-Bqxs-F0EYaZnzYkNuV7Zh68OCovmIbx/view?usp=sharing
+   https://drive.google.com/file/d/1-KXNIJyiyPP9Z1GCj0F2nAHDn7rIkiTL/view?usp=sharing
 3. If downloaded from an android device, install it and it is ready to be used
 4. If downloaded from a PC, send the .apk file to an android device, install it and it is ready to be used
 
